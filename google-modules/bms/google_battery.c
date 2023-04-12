@@ -6302,8 +6302,6 @@ static ssize_t charge_full_estimate_show(struct device *dev, struct device_attri
 
 static DEVICE_ATTR_RO(charge_full_estimate);
 
-#ifdef CONFIG_DEBUG_FS
-
 static int cycle_count_bins_store(void *data, u64 val)
 {
 	struct batt_drv *batt_drv = (struct batt_drv *)data;
