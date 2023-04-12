@@ -6782,8 +6782,6 @@ static int debug_ravg_fops_write(void *data, u64 val)
 
 DEFINE_SIMPLE_ATTRIBUTE(debug_ravg_fops, NULL, debug_ravg_fops_write, "%llu\n");
 
-#endif
-
 /* ------------------------------------------------------------------------- */
 
 static ssize_t debug_get_fake_temp(struct file *filp,
