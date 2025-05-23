@@ -41,5 +41,5 @@ obj-y += touch/synaptics/
 obj-y += trusty/
 obj-y += uwb/qorvo/dw3000/kernel/
 obj-y += video/gchips/
-obj-y += wlan/bcm4389/
+obj-y += wlan/bcmdhd/bcm4389/
 obj-y += fingerprint/goodix/fps_touch_handler/
